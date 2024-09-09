@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Login_functionality">
+  <parameter name="browser" value="webdriver.chrome.driver"></parameter>
+  <parameter name="path" value="C:\Users\Kiran S Bandihal\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"></parameter>
+    <classes>
+      <class name=".Login"/>
+    </classes>
+  </test> <!-- Login_functionality -->
+</suite> <!-- Suite -->
+
